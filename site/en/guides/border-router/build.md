@@ -34,10 +34,10 @@ connectivity to download and install several packages.
 OTBR communicates with the RCP via spinel. To install OTBR on the configured
 hardware platform, complete the following steps.
 
-Clone the OTBR repository:
+Clone the OTBR repository including submodules:
 
 ```
-$ git clone https://github.com/openthread/ot-br-posix
+$ git clone --depth=1 --recurse-submodules https://github.com/openthread/ot-br-posix
 ```
 
 ### Install dependencies
